@@ -465,7 +465,7 @@ Vamos trabalhar com dois terminais abertos (**T1** e **T2**).
     
     b. "Compilar" o `Dockerfile`:
     ```
-    $ docker build -t ubuntu-com-nmap-viadockerfile .
+    $ docker build -t ubuntu_com_nmap-viadockerfile .
     Sending build context to Docker daemon  15.87kB
     Step 1/4 : FROM ubuntu
      ---> adafef2e596e
@@ -572,7 +572,7 @@ Vamos trabalhar com dois terminais abertos (**T1** e **T2**).
     ```
     $ docker images
     REPOSITORY                      TAG                 IMAGE ID            CREATED             SIZE
-    ubuntu-com-nmap-viadockerfile   latest              4647bd58aa0e        13 seconds ago      127MB
+    ubuntu_com_nmap-viadockerfile   latest              4647bd58aa0e        13 seconds ago      127MB
     ubuntu_com_nmap                 latest              287d2c84024a        18 minutes ago      127MB
     ubuntu                          latest              adafef2e596e        11 days ago         73.9MB
     ```
